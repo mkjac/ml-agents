@@ -12,7 +12,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
-      "version": "1.6.0",
+      "version": "1.6.4",
       "depth": 2,
       "source": "registry",
       "dependencies": {
@@ -28,10 +28,12 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.rider": {
-      "version": "3.0.5",
+      "version": "3.0.12",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
@@ -44,7 +46,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.2.1",
+      "version": "1.2.5",
       "depth": 3,
       "source": "registry",
       "dependencies": {},
@@ -93,7 +95,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
-      "version": "1.1.29",
+      "version": "1.1.31",
       "depth": 0,
       "source": "registry",
       "dependencies": {
