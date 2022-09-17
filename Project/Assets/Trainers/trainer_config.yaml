@@ -1,4 +1,4 @@
-FlappyAI:
+default:
   trainer: ppo
   batch_size: 1024
   beta: 5.0e-3
