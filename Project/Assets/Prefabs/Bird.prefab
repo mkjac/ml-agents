@@ -235,6 +235,11 @@ MonoBehaviour:
     maxStep: 0
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
+  rb: {fileID: 957495695243245886}
+  pipeHandler: {fileID: 0}
+  bodyTransform: {fileID: 2799502788217749323}
+  jumpForce: 5
+  maxVelocityMagnitude: 5
 --- !u!135 &4328589882780737839
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -393,7 +398,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2310386618106820848}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -403,7 +408,7 @@ Transform:
   - {fileID: 1826224639168325975}
   m_Father: {fileID: 5886952007382009868}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &3926350498409470462
 MeshFilter:
   m_ObjectHideFlags: 0

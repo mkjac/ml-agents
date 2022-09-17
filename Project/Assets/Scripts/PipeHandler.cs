@@ -26,9 +26,9 @@ namespace FlappyAI
 
         public void ResetPipes()
         {
-            foreach (var pipe in pipes)
+            foreach (GameObject pipe in pipes)
             {
-                Destroy(pipe.gameObject);
+                Destroy(pipe);
             }
 
             pipes.Clear();
