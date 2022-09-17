@@ -291,7 +291,7 @@ MonoBehaviour:
     VectorActionDescriptions: []
     VectorActionSpaceType: 0
     hasUpgradedBrainParametersWithActionSpec: 1
-  m_Model: {fileID: 0}
+  m_Model: {fileID: 5022602860645237092, guid: c1286f55b8c718b4099eee14b7fd2c86, type: 3}
   m_InferenceDevice: 3
   m_BehaviorType: 0
   m_BehaviorName: FlappyAI
